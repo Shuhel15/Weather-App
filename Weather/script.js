@@ -1,4 +1,4 @@
-const apikey = "a0e2279c120a83e54e91db580ffb4bb2";
+const apikey = "{Api_key}";
 const apiurl = "https://api.openweathermap.org/data/2.5/weather?&units=metric&q=";
 
 const searchBox = document.querySelector(".search input");
@@ -50,4 +50,5 @@ searchBox.addEventListener("keydown", (event) => {
   if (event.key === "Enter") {
     checkWeather(searchBox.value)
   }
+
 });
